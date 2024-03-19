@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>LP Desarrollador Web</title>
+  </head>
+  <body>
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>/JPCR/</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="https://github.com/Cerv12/" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jose-pablo-cervantes-ramirez-3b420226b/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/cerv1612/" target="_blank"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Proyectos</h2>
+          <p class="descripcion">
+            En esta seccion se mostraran los proyectos en los que participé en
+            mi carrera.
+          </p>
+          <a href="#portfolio">Ver Proyectos</a>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://tankstudiolab.com/" target="_blank">
+            <img src="img/Proyectos/Tank Studio.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Tank Studio</h4>
+            <a
+              href="https://tankstudiolab.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://yokohamallantas.com/" target="_blank">
+            <img src="img/Proyectos/Yokohama.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Yokohama</h4>
+            <a
+              href="https://yokohamallantas.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://revistaconsultoria.com.mx/" target="_blank">
+            <img src="img/Proyectos/RevistaConsultoria.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Revista Consultoria</h4>
+            <a
+              href="https://revistaconsultoria.com.mx/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://carborablack.com/" target="_blank">
+            <img src="img/Proyectos/Carbora.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Carbora</h4>
+            <a
+              href="https://carborablack.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://www.iscoimagen.com/" target="_blank">
+            <img src="img/Proyectos/Isco.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Isco Imagen</h4>
+            <a
+              href="https://www.iscoimagen.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://bambu-mobile.com/" target="_blank">
+            <img src="img/Proyectos/Bambu.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Bambu</h4>
+            <a
+              href="https://bambu-mobile.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://odessademexico.com/" target="_blank">
+            <img src="img/Proyectos/Odessa.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Odessa Mexico</h4>
+            <a
+              href="https://odessademexico.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://cavavirtual.app/" target="_blank">
+            <img src="img/Proyectos/Cava Virtual.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Cava Virtual</h4>
+            <a
+              href="https://cavavirtual.app/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://pacificwestinjury.com/" target="_blank">
+            <img src="img/Proyectos/PacificWest.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Pacific West</h4>
+            <a
+              href="https://pacificwestinjury.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">Ver Proyecto</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <center>
+          <button class="proyectos_button">
+            <a href="proyectos.html" target="_blank" class="texto_proyectos"
+              >Ver más</a
+            >
+          </button>
+        </center>
+      </div>
+    </section>
+  </body>
+  <!-- SECCION FOOTER -->
+  <footer>
+    <p>Todos los derechos reservados - 2024</p>
+    <div class="redes">
+      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</html>

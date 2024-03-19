@@ -359,11 +359,38 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso4 {
   background-color: #fff;
-  width: 85%;
+  width: 95%;
   height: 6px;
   animation: progreso4 2s forwards;
 }
 
+.contenedor-skills .skill .barra .barra-progreso5 {
+  background-color: #fff;
+  width: 95%;
+  height: 6px;
+  animation: progreso4 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso6 {
+  background-color: #fff;
+  width: 90%;
+  height: 6px;
+  animation: progreso6 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso7 {
+  background-color: #fff;
+  width: 90%;
+  height: 6px;
+  animation: progreso7 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso8 {
+  background-color: #fff;
+  width: 60%;
+  height: 6px;
+  animation: progreso8 2s forwards;
+}
 @keyframes progreso1 {
   0% {
     width: 0;
@@ -396,7 +423,43 @@ html {
     width: 0;
   }
   100% {
-    width: 85%;
+    width: 95%;
+  }
+}
+
+@keyframes progreso5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes progreso6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progreso7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes progreso8 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
   }
 }
 /* *********************/
@@ -433,6 +496,31 @@ html {
   overflow: hidden;
 }
 
+.proyectos_button {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 15px !important;
+  text-decoration: none;
+}
+
+.proyectos_button:hover {
+  background-color: #ff5080;
+  color: #fff;
+  border-width: 1px;
+}
+
+.texto_proyectos {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #030303;
+}
+
+.proyectos_button .texto_proyectos:hover {
+  color: #fff;
+}
 #portfolio .fila .proyecto img {
   width: 100%;
   height: 100%;
