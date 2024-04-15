@@ -57,6 +57,10 @@ html {
   transition: 0.5s;
 }
 
+.inicio-boton {
+  color: #ff5080;
+  text-decoration: none;
+}
 #inicio .contenido header .contenido-header nav ul li a:hover {
   color: #ff5080;
 }
