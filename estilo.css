@@ -106,7 +106,7 @@ html {
 }
 
 #inicio .contenido .presentacion h2 span {
-  font-size: 25px;
+  font-size: 40px;
   color: #ff5080;
 }
 
@@ -674,15 +674,20 @@ footer a {
   .presentacion {
     padding: 0px 30px;
   }
-
+  #inicio .contenido .presentacion h2 span {
+    font-size: 32px;
+  }
   #inicio .contenido .presentacion h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
   /* seccion SOBRE MI */
   #sobremi {
     padding: 50px 0;
     display: block;
+    text-align: center;
+    justify-content: center;
   }
+
   .link-spand {
     text-decoration: none;
     color: white;
