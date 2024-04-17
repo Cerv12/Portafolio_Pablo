@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../estilo.css" />
+    <title>LP Desarrollador Web</title>
+  </head>
+
+  <body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1><a href="index.html" class="inicio-boton">/JPCR/</a></h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >HEAD</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICE</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="https://github.com/Cerv12/" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jose-pablo-cervantes-ramirez-3b420226b/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/cerv1612/" target="_blank"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </div>
+            <div style="width: 10%">
+              <a href="../index.html"
+                ><img
+                  src="../Flags Icon/mexicanflag.png"
+                  width="50%"
+                  height="50%"
+                  alt="USA FLag"
+              /></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Welcome</p>
+          <h2>I'm <span>Pablo Cervantes</span>, Web Developer</h2>
+          <p class="descripcion">
+            a passionate web developer with experience creating attractive and
+            functional websites.
+          </p>
+          <a href="#portfolio">Go to Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="../img/foto_pablo.jpg" alt="Foto Desarrollador" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">About Me</p>
+        <h2>HI, I'm <span>Pablo Cervantes</span></h2>
+        <h3>Web Developer</h3>
+        <p>
+          a passionate web developer with a strong track record in creating
+          captivating digital experiences. My approach goes beyond simple code;
+          I strive to fuse design elegance with robust functionality to produce
+          websites that not only meet technical requirements but also captivate
+          users from the first click.
+        </p>
+        <a href="../PDF/Pablo_Cervantes_CV_2024.pdf" target="_blank"
+          >Download CV</a
+        >
+      </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">My Services</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"> <i class="fa-solid fa-code"></i></span>
+          <h4>Wordpress Developer</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Elementor</li>
+            <li>Breakdance</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            As a web developer, I have exceptional experience in WordPress
+            platform, standing out for my ability to create elegant and
+            functional websites efficiently and personalized.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+          <h4>Svelte</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Svelte is a revolutionary technology in the world of front-end web
+            development that redefines the way we build interactive
+            applications.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+          <h4>Posicionamiento SEO</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Yoast</li>
+            <li>Ahref</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            In the dynamic digital world, I am an SEO specialist dedicated to
+            boosting online visibility and maximizing website performance.
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-database"></i></span>
+          <h4>Alojamiento de Sitios</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Web hosting is an essential service that provides the infrastructure
+            necessary to make your website available online 24 hours a day, 7
+            days a week.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-cash-register"></i></span>
+          <h4>Woocomerce</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Digital Business</li>
+          </ul>
+          <p>
+            WooCommerce is a robust and highly customizable e-commerce platform
+            that integrates highly customizable e-commerce platform that
+            integrates seamlessly with WordPress.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"
+            ><i class="fa-solid fa-person-circle-question"></i
+          ></span>
+          <h4>External Consultant</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            An external consultant is an experienced and specialized
+            professional who provides strategic advice to who provides strategic
+            advice to organizations from an independent independent position.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+      <h3>SKILLS</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Html & Css</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="html"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Javascript</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="js"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Data Base</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="bd"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Wordpress</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="ps"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Elementor</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="el"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Breakdance</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="br"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Woocomerce</p>
+          <span class="porcentaje">80%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="wo"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>English</p>
+          <span class="porcentaje">B1</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="en"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+      <h3 class="titulo-seccion">My Projects</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://tankstudiolab.com/" target="_blank">
+            <img src="../img/Proyectos/Tank Studio.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Tank Studio</h4>
+            <a
+              href="https://tankstudiolab.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://yokohamallantas.com/" target="_blank">
+            <img src="../img/Proyectos/Yokohama.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Yokohama</h4>
+            <a
+              href="https://yokohamallantas.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://revistaconsultoria.com.mx/" target="_blank">
+            <img src="../img/Proyectos/RevistaConsultoria.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Revista Consultoria</h4>
+            <a
+              href="https://revistaconsultoria.com.mx/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://carborablack.com/" target="_blank">
+            <img src="../img/Proyectos/Carbora.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Carbora</h4>
+            <a
+              href="https://carborablack.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://www.iscoimagen.com/" target="_blank">
+            <img src="../img/Proyectos/Isco.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Isco Imagen</h4>
+            <a
+              href="https://www.iscoimagen.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://bambu-mobile.com/" target="_blank">
+            <img src="../img/Proyectos/Bambu.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Bambu</h4>
+            <a
+              href="https://bambu-mobile.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://odessademexico.com/" target="_blank">
+            <img src="../img/Proyectos/Odessa.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Odessa Mexico</h4>
+            <a
+              href="https://odessademexico.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://cavavirtual.app/" target="_blank">
+            <img src="../img/Proyectos/Cava Virtual.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Cava Virtual</h4>
+            <a
+              href="https://cavavirtual.app/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://pacificwestinjury.com/" target="_blank">
+            <img src="../img/Proyectos/PacificWest.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>Pacific West</h4>
+            <a
+              href="https://pacificwestinjury.com/"
+              class="link-spand"
+              target="_blank"
+            >
+              <p class="link-spand">See Project</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <center>
+          <button class="proyectos_button">
+            <a href="proyectos.html" class="texto_proyectos">See More</a>
+          </button>
+        </center>
+      </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contact Me</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Complete Name"
+              class="input-mitad"
+            />
+            <input type="email" placeholder="Email" class="input-mitad" />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Subject" class="input-full" />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message..."
+              class="input-full"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="SEND" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>All rights reserved - 2024</p>
+      <div class="redes">
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
