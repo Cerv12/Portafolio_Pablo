@@ -676,10 +676,10 @@ footer a {
   .presentacion {
     padding: 0px 30px;
   }
-  #inicio .contenido .presentacion h2 span {
+  #inicio .contenido .presentacion h1 span {
     font-size: 32px;
   }
-  #inicio .contenido .presentacion h2 {
+  #inicio .contenido .presentacion h1 {
     font-size: 32px;
   }
   /* seccion SOBRE MI */
