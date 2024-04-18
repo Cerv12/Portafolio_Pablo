@@ -60,6 +60,8 @@ html {
 .inicio-boton {
   color: #ff5080;
   text-decoration: none;
+  font-weight: 800;
+  font-size: 32px;
 }
 #inicio .contenido header .contenido-header nav ul li a:hover {
   color: #ff5080;
@@ -99,13 +101,13 @@ html {
   letter-spacing: 5px;
 }
 
-#inicio .contenido .presentacion h2 {
+#inicio .contenido .presentacion h1 {
   font-size: 55px;
   margin-bottom: 25px;
   text-align: center;
 }
 
-#inicio .contenido .presentacion h2 span {
+#inicio .contenido .presentacion h1 span {
   font-size: 40px;
   color: #ff5080;
 }
