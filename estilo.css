@@ -75,6 +75,13 @@ html {
   transition: 0.5s;
 }
 
+.redes-responsive {
+  display: none;
+}
+
+.link-responsive {
+  display: none;
+}
 #inicio .contenido header .contenido-header .redes a:hover {
   color: #ff5080;
 }
@@ -645,6 +652,13 @@ footer a {
 @media screen and (max-width: 800px) {
   .redes {
     display: none;
+  }
+  .redes-responsive {
+    display: block;
+  }
+
+  .link-responsive {
+    display: block;
   }
   nav {
     display: none;
